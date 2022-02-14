@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  	width: 960px;
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: sans-serif
+}
+
+.media-object {
+	margin-top: 12em;
+	border: 2px solid rgba(204, 203, 203, 0.9);
+	border-radius: 2%;
+	width: 35em;
+	overflow: hidden;
+}
+
+.post {
+	display: flex;
+	padding: 2em;
+}
+
+.virat-kohli {
+	height: 6em;
+}
+
+.image {
+	width: 21%;
+	height: 30%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.description {
+	line-height: 1.6em;
+	width: 80%;
+	margin-left: 2em;
+	font-weight: 400;
+	color: #010101;
+}
+
+.description header h1 {
+	font-size: 1.6em;
+	margin-bottom: 1em;
+}
+
+.last-online {
+	border-top: 2px solid rgba(241, 241, 241, 0.9);
+	font-weight: 100;
+	padding: 1em;
+	background-color: rgb(241, 241, 241);
+	color: rgb(122, 120, 120);
+}
